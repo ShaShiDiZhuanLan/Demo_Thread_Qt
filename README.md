@@ -10,8 +10,10 @@ Qt:  5.6.2vc2013版<BR/>
 # 4、效果
 QtConcurrent blockingMapped 并发处理QList或者QMap 字符串反转<BR/>
 ![image](https://github.com/ShaShiDiZhuanLan/Demo_Thread_Qt/blob/master/img/1.png)
+<BR/>
 Test_Thread 多线程 - run start<BR/>
 Test_Thread2 多线程 - moveToThread<BR/>
 ![image](https://github.com/ShaShiDiZhuanLan/Demo_Thread_Qt/blob/master/img/2.png)
+<BR/>
 QtConcurrent 多线程 - run<BR/>
 ![image](https://github.com/ShaShiDiZhuanLan/Demo_Thread_Qt/blob/master/img/3.png)
