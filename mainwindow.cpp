@@ -16,7 +16,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     test_2 = new Test_Thread2(this);
-    my_thread = new QThread(this);
+    my_thread = new QThread;
     test_2->moveToThread(my_thread);
     connect(my_thread, &QThread::finished, test_2, &Test_Thread2::deleteLater);
     connect(test_2, &Test_Thread2::sigResultReady, this, &MainWindow::onTest);
